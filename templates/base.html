@@ -13,6 +13,7 @@
 
 <div class="container bg-info text-light">
   <h1 class="header bg-danger text-warning">Django Blog</h1>
+<a href="{% url 'post_new'%}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
 {% block content %}
     {% endblock %}
 </div>
